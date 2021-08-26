@@ -1,0 +1,17 @@
+.PokedexGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 10px;
+}
+
+.IMAGEN {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+
+.loading{
+    display: flex;
+    image-resolution:initial;
+    background-position: center;
+}

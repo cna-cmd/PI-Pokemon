@@ -1,0 +1,34 @@
+.Pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+
+.PokedexGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.pokedex{
+    padding-left: 10px;
+    font-size: 30px;
+    position:initial;
+    font-family: Pokemon;
+    color: rgb(255, 208, 0);
+    -webkit-text-stroke: 1px rgb(2, 8, 34);
+    letter-spacing: 10px;
+    position: relative;
+    width: max-content;
+}
+
+.loading {
+    display: flex;
+    image-resolution: initial;
+    background-position: center;
+}
+
+

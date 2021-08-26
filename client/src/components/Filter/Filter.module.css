@@ -1,0 +1,41 @@
+.container{
+    padding: 2px;
+     margin: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+}
+
+.BUTONMIN{
+    margin: 10px;
+    width: 30px;
+    height: 20px;
+    font-family: 'Roboto',
+    sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #608080;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+}
+.BUTONMAX{
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #608080;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+}
+
+.Select{
+    border-radius: 15px;
+
+
+}

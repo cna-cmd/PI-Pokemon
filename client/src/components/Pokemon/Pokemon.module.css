@@ -1,0 +1,100 @@
+.pokemonCard {
+    display: flex;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 10px;
+    border-radius: 15px 15px 15px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #627e96;
+}
+
+.pokemonImg {
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.pokemonImgConteiner {
+    padding: 5px;
+    width: 100px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8e2dc;
+    border-radius: 15px 15px 15px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #627e96;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px 10px 10px;
+    align-items: center;
+    flex: 1;
+}
+
+.cardTop {
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #415464;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.cardTop a {
+    text-transform: capitalize;
+    color: white;
+    font-style: oblique;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.cardTop:hover{
+    transform: translateY(-10px);
+    color: #F58256;
+}
+
+.cardTop a:hover {
+    color: #F58256;
+}
+
+.pokemonType {
+    display: flex;
+
+}
+
+.pokemonTypeText {
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-style: oblique;
+    background-color: #415464;
+    color: white;
+    width: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+
+}
+
+.typeTitle{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: rgb(224, 131, 109);
+    width: 60px;
+    border-radius: 15px;
+    color: #fff;
+    padding: 2px;
+
+}

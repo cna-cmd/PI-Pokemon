@@ -1,0 +1,133 @@
+.container {
+    height: 90vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-size: 100%;
+    font-style: oblique;
+}
+
+.panel{
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    border-left: 10px solid;
+    border-bottom: 10px solid;
+    border-color: #627e96;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.containerIMG {
+    margin-left: 100px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8e2dc;
+    border-radius: 15px 15px 15px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #627e96;
+}
+
+.pokemonImg {
+    padding-top: 25px;
+    height: 100px;
+    width: 150px;
+}
+
+.Top{
+    display: flex;
+}
+
+.Medium{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    border-radius: 15px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #6183B9; 
+}
+
+.Bottom {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #6183B9; 
+}
+
+.Title{
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    border-radius: 15px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #6183B9; 
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Type{
+    border-radius: 10px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #6183B9; 
+    width:80px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.loading{
+    display: flex;
+    image-resolution:initial;
+    background-position: center;
+}
+
+.BODY{
+    display: flex;
+    justify-content: center
+}
+
+.HOME{
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    border-radius: 15px;
+}
+
+.BUTTON{
+    margin-top: 5px;
+    margin-bottom: 4px;
+    border-radius: 15px;
+    border-style:hidden;
+    border: none;
+    border-color: #6183B9;
+    font-size: 15px;
+    color: rgb(204, 89, 63);
+}
+
+.ID{
+    padding: 5px;
+    margin:5px;   
+    border-radius: 10px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #6183B9; 
+}
+
+

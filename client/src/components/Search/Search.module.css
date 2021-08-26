@@ -1,0 +1,33 @@
+.container {
+    background-color: #fff;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.Input{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 200px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 15px;
+    outline:none;
+    border:none;
+    background-color: whitesmoke;
+}
+
+.Button{
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    padding: 5px;
+    background-color: #627E96;
+    border: none;
+}
+
+.Button:hover{
+    background-color:#608080;
+    color: white;
+}
