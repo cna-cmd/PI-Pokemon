@@ -34,28 +34,28 @@ export const DetailPokemon = () => {
                             </div>
                             <div className={style.Medium}>
                                 <div className={style.Data}>
-                                    <p>{pokemon.hp}</p>
                                     <p>HP</p>
+                                    <p>{pokemon.hp}</p>
                                 </div>
                                 <div>
-                                    <p>{pokemon.attack}</p>
                                     <p>Attack</p>
+                                    <p>{pokemon.attack}</p>
                                 </div>
                                 <div>
-                                    <p>{pokemon.defense}</p>
                                     <p>Defense</p>
+                                    <p>{pokemon.defense}</p>
                                 </div>
                                 <div>
-                                    <p>{pokemon.speed}</p>
                                     <p>Speed</p>
+                                    <p>{pokemon.speed}</p>
                                 </div>
                                 <div>
-                                    <p>{pokemon.height}</p>
                                     <p>Height</p>
+                                    <p>{pokemon.height}</p>
                                 </div>
                                 <div>
-                                    <p>{pokemon.weight}</p>
                                     <p>Weight</p>
+                                    <p>{pokemon.weight}</p>
                                 </div>
                             </div>
                             <p className={style.ID}>id:{pokemon.id}</p>
