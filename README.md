@@ -20,14 +20,14 @@
 - Aprender y practicar el workflow de GIT.
 - Usar y practicar testing.
 
-__IMPORTANTE__: No se permitirá utilizar librerías externas para aplicar estilos a la aplicación. Tendrán que utilizar CSS con algunas de las opciones que vimos en dicha clase (CSS puro, CSS Modules o Styled Components)
-
 #### Tecnologías necesarias:
 - [ ] React
 - [ ] Redux
 - [ ] Node
 - [ ] Express
 - [ ] Sequelize - Postgres
+
+#### Imágenes del proyecto:
 
 <p>
    <img src='./LandingPage.png' />
